@@ -5,4 +5,4 @@ Santiago estuvo aquí
 
 Alejandro 2 (Magnus) también
 
-Julian tambien estuvo aqui
+Julian también estuvo aquí
