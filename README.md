@@ -8,8 +8,4 @@ Alejandro 2 (Magnus) también
 Julian también estuvo aquí
 
 
-WENAAA
-
-Otro cambio
-
 Nuevo update
