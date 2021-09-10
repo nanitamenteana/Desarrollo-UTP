@@ -7,7 +7,7 @@ Alejandro 2 (Magnus) también
 
 Julian también estuvo aquí
 
-Anita estuvo aquí tambien
+Anita estuvo aquí también - <3
 
 
 Nuevo update
