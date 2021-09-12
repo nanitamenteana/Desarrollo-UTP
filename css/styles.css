@@ -1,4 +1,3 @@
-/*Anita modifica el CSS la sección de noticias*/
 *{
 	margin: 0;
 	padding: 0;
@@ -8,6 +7,17 @@
 body{
 	font-family: sans-serif;
 }
+
+/*Santiago modifica el CSS la sector servicios*/
+
+.services{
+	display: inline-block;
+}
+
+/*Santiago termina de modificar el CSS del sector serivicios*/
+
+/*Anita modifica el CSS la sección de noticias*/
+
 
 .news-lista{
 	display: flex;
