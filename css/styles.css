@@ -10,10 +10,18 @@ body{
 
 /*Santiago modifica el CSS la sector servicios*/
 
-.services{
-	background: black;
-	border: 1px solid #000;
+#services-container{
 	text-align: center;
+}
+
+.service{
+	width: 30%;
+	padding: 1%;
+	display: inline-block;
+}
+
+.service h1, p, img{
+	padding: 3%;
 }
 
 /*Santiago termina de modificar el CSS del sector serivicios*/
