@@ -11,7 +11,7 @@ body{
 /*Santiago modifica el CSS la sector servicios*/
 
 .services{
-	display: inline-block;
+	float: left;
 }
 
 /*Santiago termina de modificar el CSS del sector serivicios*/
