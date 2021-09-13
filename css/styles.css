@@ -101,7 +101,7 @@ footer{
 
 .column1 h1{
     font-size: 28px;
-	margin-right: 20px;
+	margin-left: 75px;
 	margin-top: 20px;
 }
 
@@ -110,7 +110,7 @@ footer{
     color: #d6d6d6;
     margin-top: 20px;
     max-width: 500px;
-	margin-right: 60px;
+	margin-left: 60px;
 }
 
 .column2{
@@ -119,25 +119,27 @@ footer{
 
 .column2 h1{
     font-size: 28px;
-	margin-left: 60px;
+	margin-left: 190px;
 	margin-top: 20px;
+	margin-bottom: 35px;
 }
 
 .row{
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     max-width: 600px;
-	margin-left: 60px;
+	margin-left: 150px;
 }
 
 .row img{
-    width: 29px;
-    height: 29px;
+	width: 65px;
+	height: 65px;
+	margin-left: 25px;
 }
 
 .row label{
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     color: #d6d6d6;
 }
 
