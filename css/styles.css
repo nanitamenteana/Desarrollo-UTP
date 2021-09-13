@@ -88,6 +88,7 @@ footer{
     max-width: 1200;
     margin: auto;
     padding: 40px;
+	max-height: 500px;
 }
 
 .container-body{
@@ -96,13 +97,13 @@ footer{
 }
 
 .column1{
-    max-width: 600;
+    max-width: 500;
 }
 
 .column1 h1{
     font-size: 28px;
 	margin-left: 75px;
-	margin-top: 20px;
+	margin-top: 0px;
 }
 
 .column1 p{
@@ -114,13 +115,13 @@ footer{
 }
 
 .column2{
-    max-width: 600;
+    max-width: 500;
 }
 
 .column2 h1{
     font-size: 28px;
 	margin-left: 190px;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 35px;
 }
 
