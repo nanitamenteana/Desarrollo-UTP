@@ -8,6 +8,29 @@ body{
 	font-family: sans-serif;
 }
 
+/ @import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
+
+.nav li{
+    display: inline;
+}
+.nav a{
+	color: black;
+    font-family: Raleway;
+    padding: 1em;
+    margin: 2em;
+    text-decoration: none;
+}
+
+.main-header{
+    background-image: linear-gradient(#282828,#c8c7c7);
+    background-size: cover;
+    padding-top: 50px;
+}
+/*.main-title{
+    ;
+}*/
+
+
 /*Santiago modifica el CSS la sector servicios*/
 
 #services-container{
