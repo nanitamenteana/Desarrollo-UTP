@@ -32,7 +32,6 @@ body {
 
 /*Santiago modifica el CSS la sector servicios*/
 
-<<<<<<< HEAD
 #services-container{
     display: flex;
 }
@@ -53,7 +52,8 @@ body {
 
 .service h2, p, img{
 	padding: 3%;
-=======
+}
+
 #services-container {
   text-align: center;
 }
@@ -68,7 +68,6 @@ body {
 p,
 img {
   padding: 3%;
->>>>>>> 753833f4918dd17d4bdff0321fccfb1e97e73476
 }
 
 /*Santiago termina de modificar el CSS del sector serivicios*/
