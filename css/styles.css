@@ -39,7 +39,7 @@ body {
 .service {
   width: 30%;
   padding: 1%;
-  display: inline-block;
+  display: flex;
 }
 
 .service h1,
