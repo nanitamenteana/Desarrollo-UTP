@@ -1,9 +1,6 @@
-*,
-*::after,
-*::before {
+* {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -35,26 +32,28 @@ body {
 
 /*Santiago modifica el CSS la sector servicios*/
 
-#services-container{
-    display: flex;
+#services-container {
+  display: flex;
 }
 
-.services-title{
-    text-align: center;
-    padding: 3%;
+.services-title {
+  text-align: center;
+  padding: 3%;
 }
 
-.all-services{
-    display: grid;
-	grid-template-columns:repeat(3,1fr);
-	grid-gap: 20px;
-	max-width: 1000px;
-	margin: auto;
-    align-items: center;
+.all-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
 }
 
-.service h2, p, img{
-	padding: 3%;
+.service h2,
+p,
+img {
+  padding: 3%;
 }
 
 #services-container {
