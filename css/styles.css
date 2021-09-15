@@ -221,8 +221,8 @@ footer {
 
 .column1 h1 {
   font-size: 28px;
-  margin-left: 75px;
-  margin-top: 0px;
+  margin-left: 45px;
+  margin-top: 10px;
 }
 
 .column1 p {
@@ -230,7 +230,7 @@ footer {
   color: #d6d6d6;
   margin-top: 20px;
   max-width: 500px;
-  margin-left: 60px;
+  margin-left: 30px;
 }
 
 .column2 {
@@ -239,8 +239,8 @@ footer {
 
 .column2 h1 {
   font-size: 28px;
-  margin-left: 190px;
-  margin-top: 0px;
+  margin-left: 110px;
+  margin-top: 10px;
   margin-bottom: 35px;
 }
 
@@ -248,18 +248,19 @@ footer {
   margin-top: 0px;
   display: flex;
   max-width: 600px;
-  margin-left: 150px;
+  margin-left: 65px;
 }
 
 .row img {
-  width: 65px;
-  height: 65px;
+  width: 30px;
+  height: 30px;
   margin-left: 25px;
+  margin-bottom: 15px;
 }
 
 .row label {
   margin-top: 0px;
-  margin-left: 0px;
+  margin-right: 25px;
   color: #d6d6d6;
 }
 
