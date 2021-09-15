@@ -34,16 +34,24 @@ body{
 /*Santiago modifica el CSS la sector servicios*/
 
 #services-container{
-	text-align: center;
+    display: flex;
 }
 
-.service{
-	width: 30%;
-	padding: 1%;
-	display: flex;
+.services-title{
+    text-align: center;
+    padding: 3%;
 }
 
-.service h1, p, img{
+.all-services{
+    display: grid;
+	grid-template-columns:repeat(3,1fr);
+	grid-gap: 20px;
+	max-width: 1000px;
+	margin: auto;
+    align-items: center;
+}
+
+.service h2, p, img{
 	padding: 3%;
 }
 
