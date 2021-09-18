@@ -32,44 +32,42 @@ body {
 
 /*Santiago modifica el CSS la sector servicios*/
 
-#services-container {
+.services-lista {
   display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
 }
 
-.services-title {
-  text-align: center;
-  padding: 3%;
-}
-
-.all-services {
+.services-contenido {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   max-width: 1000px;
   margin: auto;
-  align-items: center;
 }
 
-.service h2,
-p,
-img {
-  padding: 3%;
+.services-cuerpo {
+  text-align: justify;
 }
 
-#services-container {
+.services-titulo {
   text-align: center;
 }
 
-.service {
-  width: 30%;
-  padding: 1%;
-  display: flex;
+.services-articulos {
+  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.1);
 }
 
-.service h1,
-p,
-img {
-  padding: 3%;
+.services-header {
+  width: 100%;
+  height: 200%;
+}
+
+.services-img {
+  background-position: center;
+  text-align: center;
 }
 
 /*Santiago termina de modificar el CSS del sector serivicios*/
