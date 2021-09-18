@@ -8,7 +8,7 @@ body{
 	font-family: sans-serif;
 }
 
-/ @import url(https://fonts.googleapis.com/css?family=Raleway:300,400);
+/*David modificó el style para el header*/
 
 .nav li{
     display: inline;
@@ -29,6 +29,8 @@ body{
 /*.main-title{
     ;
 }*/
+/*David termina de modificar el style para el header*/
+
 
 
 /*Santiago modifica el CSS la sector servicios*/
