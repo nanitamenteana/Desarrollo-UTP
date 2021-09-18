@@ -1,30 +1,30 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
-body{
-	font-family: sans-serif;
+body {
+  font-family: sans-serif;
 }
 
 /*David modificó el style para el header*/
 
-.nav li{
-    display: inline;
+.nav li {
+  display: inline;
 }
-.nav a{
-	color: black;
-    font-family: Raleway;
-    padding: 1em;
-    margin: 2em;
-    text-decoration: none;
+.nav a {
+  color: black;
+  font-family: Raleway;
+  padding: 1em;
+  margin: 2em;
+  text-decoration: none;
 }
 
-.main-header{
-    background-image: linear-gradient(#282828,#c8c7c7);
-    background-size: cover;
-    padding-top: 50px;
+.main-header {
+  background-image: linear-gradient(#282828, #c8c7c7);
+  background-size: cover;
+  padding-top: 50px;
 }
 /*.main-title{
     ;
@@ -32,148 +32,245 @@ body{
 /*David termina de modificar el style para el header*/
 
 
-
 /*Santiago modifica el CSS la sector servicios*/
 
-#services-container{
-	text-align: center;
+#services-container {
+  display: flex;
 }
 
-.service{
-	width: 30%;
-	padding: 1%;
-	display: inline-block;
+.services-title {
+  text-align: center;
+  padding: 3%;
 }
 
-.service h1, p, img{
-	padding: 3%;
+.all-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+  align-items: center;
+}
+
+.service h2,
+p,
+img {
+  padding: 3%;
+}
+
+#services-container {
+  text-align: center;
+}
+
+.service {
+  width: 30%;
+  padding: 1%;
+  display: flex;
+}
+
+.service h1,
+p,
+img {
+  padding: 3%;
 }
 
 /*Santiago termina de modificar el CSS del sector serivicios*/
 
 /*Anita modifica el CSS la sección de noticias*/
 
-
-.news-lista{
-	display: flex;
-	min-height: 100vh;
-	align-items: center;
-	justify-content: center;
-	padding: 30px 15px;
+.news-lista {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 15px;
 }
 
-.news-contenido{
-	display: grid;
-	grid-template-columns:repeat(2,1fr);
-	grid-gap: 20px;
-	max-width: 1000px;
-	margin: auto;
+.news-contenido {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.news-cuerpo{
-	text-align: justify;
+.news-cuerpo {
+  text-align: justify;
 }
 
-.news-titulo{
-	text-align: center;
+.news-titulo {
+  text-align: center;
 }
 
-.news-articulos{
-	box-shadow: 0 1px 6px 1px rgba(0,0,0,.1);
+.news-articulos {
+  box-shadow: 0 1px 6px 1px rgba(0, 0, 0, 0.1);
 }
 
-.news-header{
-	width: 100%;
-	height: 200%;
+.news-header {
+  width: 100%;
+  height: 200%;
 }
 
-.news-img{
-	background-position: center;
-	text-align: center;
+.news-img {
+  background-position: center;
+  text-align: center;
 }
 
 /*Anita termina de modificar el CSS de la sección de noticias(Aunque sin mucho exito)*/
 
+/* Alejandro: inicio estilos de sección equipo */
+.team-section {
+  height: 100vh;
+  display: flex;
+}
+
+.person {
+  flex: 1;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: 0.6s;
+}
+
+.person:hover {
+  flex: 3;
+}
+
+.person-pic {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  filter: grayscale(80%);
+  transition: 0.3s;
+}
+
+.person:hover .person-pic {
+  filter: grayscale(0);
+}
+
+.person-info {
+  position: absolute;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.person:hover .person-info {
+  opacity: 1;
+  bottom: 60px;
+  transition-delay: 0.6s;
+}
+
+.person-info h2 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.person-info p {
+  color: #b8e994;
+  font-style: italic;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.socialmedia a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #333;
+  background-color: #b8e994;
+  line-height: 40px;
+  border-radius: 50%;
+  margin: 0 6px;
+  font-size: 18px;
+  transition: 0.3s linear;
+}
+
+.socialmedia a:hover {
+  color: #b8e994;
+  background-color: transparent;
+  transform: scale(1.5);
+}
+/* Alejandro: fin estilos de sección equipo */
+
 /*Prada modifica el css de la seccion footer*/
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: sans-serif;
+
+footer {
+  width: 100%;
+  background: #242424;
+  color: white;
 }
 
-footer{
-    width: 100%;
-    background: #242424;
-    color: white;
+.container-footer-all {
+  width: 100%;
+  max-width: 1200;
+  margin: auto;
+  padding: 40px;
+  max-height: 500px;
 }
 
-.container-footer-all{
-    width: 100%;
-    max-width: 1200;
-    margin: auto;
-    padding: 40px;
-	max-height: 500px;
+.container-body {
+  display: flex;
+  justify-content: center;
 }
 
-.container-body{
-    display: flex;
-    justify-content: center;
+.column1 {
+  max-width: 500;
 }
 
-.column1{
-    max-width: 500;
+.column1 h1 {
+  font-size: 28px;
+  margin-left: 45px;
+  margin-top: 10px;
 }
 
-.column1 h1{
-    font-size: 28px;
-	margin-left: 75px;
-	margin-top: 0px;
+.column1 p {
+  font-size: 17px;
+  color: #d6d6d6;
+  margin-top: 20px;
+  max-width: 500px;
+  margin-left: 30px;
 }
 
-.column1 p{
-    font-size: 17px;
-    color: #d6d6d6;
-    margin-top: 20px;
-    max-width: 500px;
-	margin-left: 60px;
+.column2 {
+  max-width: 500;
 }
 
-.column2{
-    max-width: 500;
+.column2 h1 {
+  font-size: 28px;
+  margin-left: 110px;
+  margin-top: 10px;
+  margin-bottom: 35px;
 }
 
-.column2 h1{
-    font-size: 28px;
-	margin-left: 190px;
-	margin-top: 0px;
-	margin-bottom: 35px;
+.row {
+  margin-top: 0px;
+  display: flex;
+  max-width: 600px;
+  margin-left: 65px;
 }
 
-.row{
-    margin-top: 0px;
-    display: flex;
-    max-width: 600px;
-	margin-left: 150px;
+.row img {
+  width: 30px;
+  height: 30px;
+  margin-left: 25px;
+  margin-bottom: 15px;
 }
 
-.row img{
-	width: 65px;
-	height: 65px;
-	margin-left: 25px;
+.row label {
+  margin-top: 0px;
+  margin-right: 25px;
+  color: #d6d6d6;
 }
 
-.row label{
-    margin-top: 0px;
-    margin-left: 0px;
-    color: #d6d6d6;
-}
-
-.container-footer{
-    width: 100%;
-    background: #756f6f;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+.container-footer {
+  width: 100%;
+  background: #756f6f;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 /*Prada termina de modificar el css de la seccion footer*/
