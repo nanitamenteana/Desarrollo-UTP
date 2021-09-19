@@ -15,7 +15,7 @@ body {
 }
 .nav a{
   color: white;
-  font-family: Raleway;
+  font-family: Raleway;text-shadow: 1px 1px 2px black;
   padding-right: 5%;
   text-decoration: none;
 }
@@ -33,6 +33,7 @@ body {
   padding-top: 50px;
 }
 .main-title{
+  text-shadow: 1px 1px 2px black;
   font-family:sans-serif;
   color: rgba(229,229,229);
 }
