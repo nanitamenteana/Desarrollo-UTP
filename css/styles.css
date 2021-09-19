@@ -38,7 +38,7 @@ body {
 
 .services-lista {
   display: flex;
-  min-height: 100vh;
+  min-height: 22vh;
   align-items: center;
   justify-content: center;
   padding: 30px 15px;
@@ -48,7 +48,7 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .news-lista {
   display: flex;
-  min-height: 100vh;
+  min-height: 22vh;
   align-items: center;
   justify-content: center;
   padding: 30px 15px;
@@ -116,7 +116,7 @@ body {
   text-align: center;
 }
 
-/*Anita termina de modificar el CSS de la sección de noticias(Aunque sin mucho exito)*/
+/*Anita termina de modificar el CSS de la sección de noticias*/
 
 /* Alejandro: inicio estilos de sección equipo */
 .team-section {
@@ -197,7 +197,6 @@ body {
 /* Alejandro: fin estilos de sección equipo */
 
 /*Prada modifica el css de la seccion footer*/
-
 footer {
   width: 100%;
   background: #242424;
@@ -206,10 +205,10 @@ footer {
 
 .container-footer-all {
   width: 100%;
-  max-width: 1200;
+  max-width: 1200px;
   margin: auto;
-  padding: 40px;
-  max-height: 500px;
+  padding: 50px;
+  max-height: 600px;
 }
 
 .container-body {
@@ -218,52 +217,55 @@ footer {
 }
 
 .column1 {
-  max-width: 500;
+  max-width: 600px;
+  margin-right: 50px;
 }
 
 .column1 h1 {
   font-size: 28px;
-  margin-left: 45px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .column1 p {
   font-size: 17px;
   color: #d6d6d6;
-  margin-top: 20px;
+  margin-top: 15px;
   max-width: 500px;
-  margin-left: 30px;
 }
 
 .column2 {
-  max-width: 500;
+  max-width: 600px;
+  margin-left: 50px;
 }
 
 .column2 h1 {
   font-size: 28px;
-  margin-left: 110px;
-  margin-top: 10px;
-  margin-bottom: 35px;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 
 .row {
   margin-top: 0px;
   display: flex;
   max-width: 600px;
-  margin-left: 65px;
 }
 
 .row img {
   width: 30px;
   height: 30px;
-  margin-left: 25px;
-  margin-bottom: 15px;
+  margin-top: 40px;
+  margin-right: 10px;
 }
 
 .row label {
   margin-top: 0px;
-  margin-right: 25px;
   color: #d6d6d6;
+  margin-top: 15px;
+}
+
+.row a {
+  display: flex;
+  margin-top: 10px;
 }
 
 .container-footer {
