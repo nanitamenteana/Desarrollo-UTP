@@ -10,27 +10,32 @@ body {
 
 /*David modificó el style para el header*/
 
-.nav li {
+.nav li{
   display: inline;
 }
-.nav a {
-  color: black;
+.nav a{
+  color: white;
   font-family: Raleway;
-  padding: 1em;
-  margin: 2em;
+  padding-right: 5%;
   text-decoration: none;
 }
 
-.main-header {
-  background-color: rgba(0,0,0,.6);
-  background-image: url(img/grado.jpg);
+.nav a:hover{
+  background-color: rgba(0,0,0,.3);
+}
+
+.main-header{
+  background-color: rgba(0,0,0,.4);
+  background-image: url(grado.jpg);
+  background-position: bottom;
   background-blend-mode: multiply;
   background-size: cover;
   padding-top: 50px;
 }
-/*.main-title{
-    ;
-}*/
+.main-title{
+  font-family:sans-serif;
+  color: rgba(229,229,229);
+}
 /*David termina de modificar el style para el header*/
 
 
