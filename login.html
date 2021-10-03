@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login</title>
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
-        <link rel="stylesheet" href="css/login.css">
-
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
 <body>
     <header class="main-header">
         <nav class="nav1">
@@ -20,28 +19,23 @@
             </style>
         </nav>
     </header>
-          
-    <div class="formulario">
-        <h1>Inicie Sesión</h1>
-        <form method="post">
-
-            <div class="txt_field">
-                <input type="text" placeholder="Usuario">
-                <span></span>
-                <label>Email o nombre de usuario</label>
-                <i class="fas fa-use"></i>
+<body>
+    <div class="container">
+        <h1>Inicie sesión</h1>
+        <form action="" class="form">
+            <div class="form_usuario">
+                <label for="">Email o nombre de usuario</label>
+                <input type="text" class="Usuario">
             </div>
-
-            <div class="txt_field">
-                <input type="password" placeholder="*********">
-                <span></span>
-                <label>Contraseña</label>
-                <i class="fas fa-ke"></i>
+            <div class="form_clave">
+                <label for="">Contraseña</label>
+                <input id="clave" type="password" class="clave">
+                <span id="ver" class="ver_clave"><i class="fas fa-eye"></i></span>
             </div>
-
-            <div class="pass">Olvide mi contraseña</div>
-                <input type="submit" value="Iniciar Sesion" class="button">
+            <div class="olvide_clave">Olvide mi contraseña</div>
+            <button class="boton">Iniciar sesion</button>
         </form>
     </div>
+    <script src="/js/main.js"></script>
 </body>
 </html>
