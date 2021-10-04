@@ -147,3 +147,22 @@ body{
   outline: none;
   margin-bottom: 25px;
 }
+
+.crearcuenta{
+width: 50%;
+height: 40px;
+border: 0px solid;
+background: #2ac732;
+box-shadow: 2px 2px 5px #999;
+filter: shadow(color=#999999, direction=135, strength=2);
+border-radius: 0px;
+font-size: 18px;
+color: #e9f4fb;
+font-weight: 700;
+cursor: pointer;
+outline: none;
+margin-bottom: 25px;
+margin-top: -20px;
+text-decoration: none;
+margin-left: 25%;
+}

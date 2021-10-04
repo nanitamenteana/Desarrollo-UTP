@@ -12,7 +12,7 @@
     <header class="main-header">
         <nav class="nav1">
             <ul>
-            <li><a href="index.html">Home</a> | <a href="About.html">About</a> | <a href="Contact us.html">Contact</a></li>
+           <!-- <li><a href="index.html">Home</a> | <a href="About.html">About</a> | <a href="Contact us.html">Contact</a></li> -->
             </ul>
             <style>
             a { color: #ffffff; } /* CSS link color */
@@ -22,18 +22,20 @@
 <body>
     <div class="container">
         <h1>Inicie sesión</h1>
-        <form action="" class="form">
+        <form action="" class="form" name="form">
             <div class="form_usuario">
-                <label for="">Email o nombre de usuario</label>
-                <input type="text" class="Usuario">
+                <label for="correo">Email o nombre de usuario</label>
+                <input type="text" class="Usuario" name="usuario">
             </div>
             <div class="form_clave">
                 <label for="">Contraseña</label>
-                <input id="clave" type="password" class="clave">
-                <span id="ver" class="ver_clave"><i class="fas fa-eye"></i></span>
+                <input id="clave" type="password" class="clave" name="clave">
+                <span id="ver" class="ver_clave"><i id="icono" class="fas fa-eye"></i></span>
             </div>
+            <input class="boton" onclick="ir()" type="button" value="Iniciar sesion">
             <div class="olvide_clave">Olvide mi contraseña</div>
-            <button class="boton">Iniciar sesion</button>
+            <STYLE>A {text-decoration: none;} </STYLE>
+            <button class="crearcuenta"><a href="/registro.html">Crear cuenta</a></button>
         </form>
     </div>
     <script src="/js/main.js"></script>
