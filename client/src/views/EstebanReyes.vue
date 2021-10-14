@@ -137,7 +137,7 @@ export default {
 .ui.segment{
   border: none;
 }
-
+//ss
 .ui.three.column.grid{
   background: white;
   margin-left: 400px;
